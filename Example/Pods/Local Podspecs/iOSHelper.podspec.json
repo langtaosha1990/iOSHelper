@@ -1,0 +1,22 @@
+{
+  "name": "iOSHelper",
+  "version": "0.0.0",
+  "summary": "iOSHelper库",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://gitee.com/langtaosha/iOSHelper",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Gpf": "13301@163.com"
+  },
+  "source": {
+    "git": "https://github.com/Gpf/iOSHelper.git",
+    "tag": "0.0.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "iOSHelper/Classes/**/*"
+}
