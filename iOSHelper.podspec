@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'iOSHelper'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'iOSHelper库'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-#  s.source_files = 'iOSHelper/Classes/**/*'
+  s.source_files = 'iOSHelper/GUnitySupport/**/*'
   
   s.subspec 'GWebViewManager' do |ss|
     ss.source_files = 'iOSHelper/GUnitySupport/GWebViewManager/*{h,m}'
