@@ -9,7 +9,15 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - iOSHelper (0.0.0)
+  - iOSHelper (0.0.2):
+    - iOSHelper/GCoreMLManager (= 0.0.2)
+    - iOSHelper/GLiveVideoManager (= 0.0.2)
+    - iOSHelper/GSecurityManager (= 0.0.2)
+    - iOSHelper/GWebViewManager (= 0.0.2)
+  - iOSHelper/GCoreMLManager (0.0.2)
+  - iOSHelper/GLiveVideoManager (0.0.2)
+  - iOSHelper/GSecurityManager (0.0.2)
+  - iOSHelper/GWebViewManager (0.0.2)
   - Specta (1.0.7)
 
 DEPENDENCIES:
@@ -34,7 +42,7 @@ SPEC CHECKSUMS:
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  iOSHelper: 6d3bdc7f84f55885bfe81d19b9472ae05b4835d0
+  iOSHelper: d613e4e623ae5548ac8a158a9310f66cb8dd56e0
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 
 PODFILE CHECKSUM: 59021e7de45e24a661068228d5847869cd716501

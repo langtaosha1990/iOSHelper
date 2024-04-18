@@ -1,9 +1,9 @@
 {
   "name": "iOSHelper",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "summary": "iOSHelper库",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://gitee.com/langtaosha/iOSHelper",
+  "homepage": "https://github.com/langtaosha1990/iOSHelper",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,28 @@
     "Gpf": "13301@163.com"
   },
   "source": {
-    "git": "https://github.com/Gpf/iOSHelper.git",
-    "tag": "0.0.0"
+    "git": "https://github.com/langtaosha1990/iOSHelper.git",
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "iOSHelper/Classes/**/*"
+  "subspecs": [
+    {
+      "name": "GWebViewManager",
+      "source_files": "iOSHelper/GUnitySupport/GWebViewManager/*.{h, m}"
+    },
+    {
+      "name": "GLiveVideoManager",
+      "source_files": "iOSHelper/GUnitySupport/GLiveVideoManager/*.{h, m}"
+    },
+    {
+      "name": "GSecurityManager",
+      "source_files": "iOSHelper/GUnitySupport/GSecurityManager/*.{h, m}"
+    },
+    {
+      "name": "GCoreMLManager",
+      "source_files": "iOSHelper/GUnitySupport/GCoreMLManager/*.{h, m}"
+    }
+  ]
 }

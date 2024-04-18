@@ -267,7 +267,7 @@
 		30A583A28600B6024E142CEE3AC34642 /* EXPMatchers+equal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+equal.h"; path = "Expecta/Matchers/EXPMatchers+equal.h"; sourceTree = "<group>"; };
 		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		32D3545A01262C6D92DF5D83E71971DF /* EXPMatchers+beginWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beginWith.m"; path = "Expecta/Matchers/EXPMatchers+beginWith.m"; sourceTree = "<group>"; };
-		3514C46ED9458090D5AC1E7E0F3A3365 /* iOSHelper */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iOSHelper; path = iOSHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3514C46ED9458090D5AC1E7E0F3A3365 /* iOSHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3648A2081BFDBA68B74B0E2BBB5B9AA5 /* Pods-iOSHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		373732A9C739AA9A65AD168D7988901D /* EXPMatchers+beGreaterThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.h"; sourceTree = "<group>"; };
 		37EF16E017F7EF88AAC9B3A4F3523388 /* NSObject+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Expecta.h"; path = "Expecta/NSObject+Expecta.h"; sourceTree = "<group>"; };
@@ -278,7 +278,7 @@
 		3B521014FCFD00FB0B45F815E5B0B1BA /* SPTCallSite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTCallSite.h; path = Specta/Specta/SPTCallSite.h; sourceTree = "<group>"; };
 		3B5D7824FC9B56BFDFE960BEBA8665C6 /* iOSHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = iOSHelper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3D462091B0B297DA65FD3F10937EFB1A /* EXPMatchers+raise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+raise.m"; path = "Expecta/Matchers/EXPMatchers+raise.m"; sourceTree = "<group>"; };
-		3DEA5F9F4C80212EF307ECAE101A471F /* Pods-iOSHelper_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-iOSHelper_Tests"; path = Pods_iOSHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DEA5F9F4C80212EF307ECAE101A471F /* Pods_iOSHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E0B2A4326A6771BE138C8CE16707F8A /* EXPFloatTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPFloatTuple.h; path = Expecta/EXPFloatTuple.h; sourceTree = "<group>"; };
 		4036AD561259F58D92A41832D20EF707 /* EXPMatchers+beTruthy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beTruthy.m"; path = "Expecta/Matchers/EXPMatchers+beTruthy.m"; sourceTree = "<group>"; };
 		41DD008B1C8CCDB66E9DB3DD2858D513 /* SPTCompiledExample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTCompiledExample.h; path = Specta/Specta/SPTCompiledExample.h; sourceTree = "<group>"; };
@@ -370,7 +370,7 @@
 		BAC1594F0D2374E5BA180A52DA57710C /* SPTExcludeGlobalBeforeAfterEach.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTExcludeGlobalBeforeAfterEach.h; path = Specta/Specta/SPTExcludeGlobalBeforeAfterEach.h; sourceTree = "<group>"; };
 		BD3E006894002C83D989E90A5E9330F2 /* EXPMatchers+beTruthy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beTruthy.h"; path = "Expecta/Matchers/EXPMatchers+beTruthy.h"; sourceTree = "<group>"; };
 		C0E7514AB1F341A616CDFFEB60AE2C49 /* EXPMatchers+match.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+match.h"; path = "Expecta/Matchers/EXPMatchers+match.h"; sourceTree = "<group>"; };
-		C16462B1E55932854F9B22A5CE306477 /* Pods-iOSHelper_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-iOSHelper_Example"; path = Pods_iOSHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C16462B1E55932854F9B22A5CE306477 /* Pods_iOSHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2C47770A2B7F56356D78B6BC2A100B0 /* Specta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Specta-umbrella.h"; sourceTree = "<group>"; };
 		C4230741943C64927EC644AF561F2F4C /* SPTTestSuite.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTTestSuite.m; path = Specta/Specta/SPTTestSuite.m; sourceTree = "<group>"; };
 		C4D9E506424CA1615456597BFFC36A61 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
@@ -714,9 +714,9 @@
 				08F7F0770B4878B9883B87DCD8569CB4 /* Expecta */,
 				20B68C9269B45825E82F4F5ECE0EB27C /* Expecta+Snapshots */,
 				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */,
-				3514C46ED9458090D5AC1E7E0F3A3365 /* iOSHelper */,
-				C16462B1E55932854F9B22A5CE306477 /* Pods-iOSHelper_Example */,
-				3DEA5F9F4C80212EF307ECAE101A471F /* Pods-iOSHelper_Tests */,
+				3514C46ED9458090D5AC1E7E0F3A3365 /* iOSHelper.framework */,
+				C16462B1E55932854F9B22A5CE306477 /* Pods_iOSHelper_Example.framework */,
+				3DEA5F9F4C80212EF307ECAE101A471F /* Pods_iOSHelper_Tests.framework */,
 				15B13B063AA97C48C9010C298AECBDDA /* Specta */,
 			);
 			name = Products;
@@ -1053,7 +1053,7 @@
 			);
 			name = "Pods-iOSHelper_Example";
 			productName = Pods_iOSHelper_Example;
-			productReference = C16462B1E55932854F9B22A5CE306477 /* Pods-iOSHelper_Example */;
+			productReference = C16462B1E55932854F9B22A5CE306477 /* Pods_iOSHelper_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		49B99B823197F498554541AD8E74D9C1 /* Pods-iOSHelper_Tests */ = {
@@ -1076,7 +1076,7 @@
 			);
 			name = "Pods-iOSHelper_Tests";
 			productName = Pods_iOSHelper_Tests;
-			productReference = 3DEA5F9F4C80212EF307ECAE101A471F /* Pods-iOSHelper_Tests */;
+			productReference = 3DEA5F9F4C80212EF307ECAE101A471F /* Pods_iOSHelper_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8B98F09738742E4D780D1B20B468CD95 /* Expecta+Snapshots */ = {
@@ -1151,7 +1151,7 @@
 			);
 			name = iOSHelper;
 			productName = iOSHelper;
-			productReference = 3514C46ED9458090D5AC1E7E0F3A3365 /* iOSHelper */;
+			productReference = 3514C46ED9458090D5AC1E7E0F3A3365 /* iOSHelper.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F8676010755CF1530FC02DA9A0D8822B /* Specta */ = {
