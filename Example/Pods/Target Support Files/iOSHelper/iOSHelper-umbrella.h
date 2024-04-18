@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "GSayHello.h"
 
 FOUNDATION_EXPORT double iOSHelperVersionNumber;
 FOUNDATION_EXPORT const unsigned char iOSHelperVersionString[];

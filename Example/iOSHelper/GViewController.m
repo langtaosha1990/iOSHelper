@@ -7,7 +7,7 @@
 //
 
 #import "GViewController.h"
-
+#import <GSayHello.h>
 
 @interface GViewController ()
 
@@ -19,7 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    
+    [GSayHello sayHello];
 }
 
 - (void)didReceiveMemoryWarning
