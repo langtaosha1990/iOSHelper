@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E0A43A97A73300C5EDFB1692A36E07E8"
-               BuildableName = "iOSHelper"
+               BuildableName = "iOSHelper.framework"
                BlueprintName = "iOSHelper"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

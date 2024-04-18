@@ -10,7 +10,10 @@
 #endif
 #endif
 
-#import "GSayHello.h"
+#import "GCoreMLManager.h"
+#import "GLiveVideoManager.h"
+#import "GSecurityManager.h"
+#import "GWebViewManager.h"
 
 FOUNDATION_EXPORT double iOSHelperVersionNumber;
 FOUNDATION_EXPORT const unsigned char iOSHelperVersionString[];

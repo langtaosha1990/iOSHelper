@@ -21,19 +21,19 @@
   "subspecs": [
     {
       "name": "GWebViewManager",
-      "source_files": "iOSHelper/GUnitySupport/GWebViewManager/*.{h, m}"
+      "source_files": "iOSHelper/GUnitySupport/GWebViewManager/*{h,m}"
     },
     {
       "name": "GLiveVideoManager",
-      "source_files": "iOSHelper/GUnitySupport/GLiveVideoManager/*.{h, m}"
+      "source_files": "iOSHelper/GUnitySupport/GLiveVideoManager/*.{h,m}"
     },
     {
       "name": "GSecurityManager",
-      "source_files": "iOSHelper/GUnitySupport/GSecurityManager/*.{h, m}"
+      "source_files": "iOSHelper/GUnitySupport/GSecurityManager/*.{h,m}"
     },
     {
       "name": "GCoreMLManager",
-      "source_files": "iOSHelper/GUnitySupport/GCoreMLManager/*.{h, m}"
+      "source_files": "iOSHelper/GUnitySupport/GCoreMLManager/*.{h,m}"
     }
   ]
 }
