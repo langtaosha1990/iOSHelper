@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'iOSHelper'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'iOSHelper库'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,23 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'iOSHelper/Classes/**/*'
+#  s.source_files = 'iOSHelper/Classes/**/*'
+  
+  s.subspec 'GWebViewManager' do |ss|
+    ss.source_files = 'iOSHelper/GUnitySupport/GWebViewManager/*.{h, m}'
+  end
+  
+  s.subspec 'GLiveVideoManager' do |ss|
+    ss.source_files = 'iOSHelper/GUnitySupport/GLiveVideoManager/*.{h, m}'
+  end
+  
+  s.subspec 'GSecurityManager' do |ss|
+    ss.source_files = 'iOSHelper/GUnitySupport/GSecurityManager/*.{h, m}'
+  end
+  
+  s.subspec 'GCoreMLManager' do |ss|
+    ss.source_files = 'iOSHelper/GUnitySupport/GCoreMLManager/*.{h, m}'
+  end
   
   # s.resource_bundles = {
   #   'iOSHelper' => ['iOSHelper/Assets/*.png']
